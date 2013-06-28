@@ -1,0 +1,260 @@
+/*yui reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+/*end yui reset*/
+
+
+abbr {
+	border-bottom: 1px dotted #333;
+}
+
+strong {
+	font-weight: bold;
+}
+
+textarea {
+	font: 13px "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+}
+
+input {
+	font: 13px Arial, Verdana, sans-serif;
+}
+
+body {
+	text-align: center;
+	font: 13px Arial, Verdana, sans-serif;
+	background: #CCC;
+	color: #222;
+}
+
+a {
+	text-decoration: none;
+	color: #2583AD;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #D54E21;
+}
+
+h3 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+h2 {
+	margin: 10px 0;
+	padding: 10px;
+	font: 24px  Arial, Verdana, sans-serif;
+	color: #E21E24;
+}
+
+h1 {
+	font: 30px Arial, Verdana, sans-serif;
+}
+
+#container {
+	text-align: left;
+	margin: 0 auto;
+	background: #FFF;
+	color: #333;
+	width: 900px;
+}
+
+#mainbar {
+	float: left;
+	width: 628px;
+	padding-right: 20px;
+}
+
+#main {
+	width: 880px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+
+#write {
+	background: #F8F8F8;
+	padding: 10px;
+	width: 608px;
+}
+
+#write label {
+	width: 394px;
+	display: block;
+	padding: 2px;
+	font-size: 14px;
+	color: #333;
+}
+
+#write textarea {
+	display: block;
+	margin: 0 0 10px 0;
+	width: 400px;
+	height: 300px;
+}
+
+#write input {
+	display: block;
+	margin: 0 0 10px 0;
+	width: 390px;
+	padding: 2px;
+}
+
+#write input.small {
+	display: block;
+	margin: 0 0 10px 0;
+	width: 190px;
+	font-size: 13px;
+	padding: 2px;
+}
+
+#submit input.submit {
+	display: block;
+	margin: 10px 0;
+	width: 130px;
+}
+
+table {
+	width: 628px;
+	color: #333;
+}
+
+table th {
+	color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 22px;
+	line-height: 22px;
+}
+
+table th a {
+	color: #FFF;
+}
+
+table td {
+	background: #FFF;
+	border-bottom: 1px solid #CCC;
+	color: #333;
+	font-size: 11px;
+	height: 28px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 28px;
+}
+
+table td.date_add{
+	width: 100px;
+}
+
+table td a {
+	color: #328AB2;
+	font-weight: bold;
+}
+
+#header {
+	background: #FFF;
+	height: 60px;
+	line-height: 60px;
+	margin: 0;
+}
+
+#header a {
+	color: #333;
+}
+
+#header h1 {
+	line-height: 60px;
+	margin-left: 10px;
+}
+
+#sidebar {
+	width: 230px;
+	float: left;
+}
+
+#sidebar h2 {
+	padding-left: 0;
+	margin: 0;
+	color: #E21E24;
+}
+
+#sidebar label {
+	color: #333;
+	font-size: 18px;
+	display: block;
+	font-family: Arial, Verdana;
+}
+
+#sidebar label.category {
+	display:inline;
+	font-size: 11px;
+}
+
+#sidebar select {
+	display: block;
+	margin: 5px 0;
+}
+
+div.blue_sidebar {
+	background: #EAF3FA;
+	padding: 10px;
+}
+
+#footer {
+	padding: 10px 10px 30px 10px;
+	font-size: 11px;
+	border-top: 2px solid #333;
+	margin-top: 20px;
+	background: #000;
+	color: #FFF;
+}
+
+#footer a {
+	color: #FFF;
+}
+
+.error {
+	margin: 5px 10px;
+	color: #FF3300;
+}
+.success {
+	margin: 5px 0;
+	color: #333;
+	font-weight: bold;
+	background: #FFFBCC;
+	border: #E6DB55 1px solid;
+	width: 615px;
+	padding: 5px;
+}
